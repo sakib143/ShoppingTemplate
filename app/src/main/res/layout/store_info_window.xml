@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bg_info_window" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:paddingRight="5dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.github.florent37.shapeofview.shapes.CircleView android:layout_gravity="center_vertical" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" app:layout_constraintDimensionRatio="1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" app:shape_roundRect_borderColor="?attr/divider" app:shape_roundRect_borderWidth="0.5dp" app:shape_roundRect_bottomLeftRadius="@dimen/dp_10" app:shape_roundRect_bottomRightRadius="@dimen/dp_10" app:shape_roundRect_topLeftRadius="@dimen/dp_10" app:shape_roundRect_topRightRadius="@dimen/dp_10">
+            <ImageView android:id="@+id/ivThumb" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintDimensionRatio="1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </com.github.florent37.shapeofview.shapes.CircleView>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/llCardContent" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintHorizontal_weight="75" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="15sp" android:textColor="?attr/colorAccent" android:ellipsize="end" android:id="@+id/tvName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/untitled" android:lines="1" android:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+                <TextView android:textColor="@color/etHint" android:ellipsize="end" android:id="@+id/tvType" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-8sp" android:lines="1" android:singleLine="true" android:fontFamily="@font/roboto_light" style="@style/tvDescription"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

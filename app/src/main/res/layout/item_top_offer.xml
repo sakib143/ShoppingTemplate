@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/frameLayout" android:background="@android:color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:padding="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ivBg" android:background="@drawable/gradient_bg" android:layout_width="match_parent" android:layout_height="170dp" android:layout_margin="@dimen/dp_8" android:scaleType="centerCrop"/>
+        <TextView android:textSize="13sp" android:ellipsize="marquee" android:gravity="start" android:id="@+id/tvItem" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" android:marqueeRepeatLimit="marquee_forever" android:paddingStart="@dimen/dp_8" app:fontFamily="@font/roboto_medium" style="@style/tvDescription"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp">
+                <TextView android:textSize="@dimen/tv_price" android:textColor="@android:color/black" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+                <TextView android:textSize="@dimen/tv_price_discount" android:textColor="@color/etHint" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/tvDiscount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="2dp" app:fontFamily="@font/roboto" style="@style/tvHead"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="13sp" android:textColor="@color/_colorPrimary" android:id="@+id/tvDiscountDetails" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="50 % off" android:maxLines="1" android:paddingStart="8dp" app:fontFamily="@font/roboto_medium"/>
+    </LinearLayout>
+</FrameLayout>

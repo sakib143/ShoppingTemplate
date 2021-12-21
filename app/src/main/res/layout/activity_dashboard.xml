@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/drawerLayout" android:background="@color/colorPrimary" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/llTab">
+            <FrameLayout android:id="@+id/flContainer" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <View android:layout_gravity="bottom" android:background="@drawable/bottom_shadow" android:layout_width="match_parent" android:layout_height="60dp"/>
+        </FrameLayout>
+        <LinearLayout android:id="@+id/llTab" android:background="@color/colorPrimary" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <FrameLayout android:id="@+id/flStore" android:background="@drawable/bg_tab_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/avStore" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:adjustViewBounds="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/store"/>
+                    <TextView android:textSize="12sp" android:textColor="@color/category_defaullt" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/menu_stores" app:fontFamily="@font/roboto_light" style="@style/tv"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/flMyCart" android:background="@drawable/bg_tab_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.airbnb.lottie.LottieAnimationView android:gravity="center" android:layout_gravity="center" android:id="@+id/avMyCart" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:adjustViewBounds="false" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/cart"/>
+                    <TextView android:textSize="12sp" android:textColor="@color/category_defaullt" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/menu_my_cart" app:fontFamily="@font/roboto_light" style="@style/tv"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/flHome" android:background="@drawable/bg_tab_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/avHome" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:adjustViewBounds="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/home"/>
+                    <TextView android:textSize="12sp" android:textColor="@color/category_defaullt" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/menu_home" app:fontFamily="@font/roboto_light" style="@style/tv"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/flNearMe" android:background="@drawable/bg_tab_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/avNearMe" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:adjustViewBounds="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/location"/>
+                    <TextView android:textSize="12sp" android:textColor="@color/category_defaullt" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/menu_near_me" app:fontFamily="@font/roboto_light" style="@style/tv"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/flAccount" android:background="@drawable/bg_tab_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/avAccount" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:adjustViewBounds="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/account"/>
+                    <TextView android:textSize="12sp" android:textColor="@color/category_defaullt" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/menu_my_account" app:fontFamily="@font/roboto_light" style="@style/tv"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:background="@android:color/transparent" layout="@layout/tool_bar_layout"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.navigation.NavigationView android:layout_gravity="start" android:id="@+id/shitstuff" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv" android:layout_width="280dp" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

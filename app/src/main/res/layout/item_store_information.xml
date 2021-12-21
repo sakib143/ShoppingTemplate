@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.github.florent37.shapeofview.shapes.CircleView android:layout_width="80dp" android:layout_height="80dp" app:shape_circle_borderColor="@color/white" app:shape_circle_borderWidth="1dp" style="@style/rc">
+            <ImageView android:id="@+id/ivStore" android:background="@color/white" android:layout_width="80dp" android:layout_height="80dp" android:scaleType="centerCrop" android:contentDescription="@string/app_name"/>
+        </com.github.florent37.shapeofview.shapes.CircleView>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5" android:layout_marginStart="@dimen/dp_5">
+            <TextView android:textSize="20sp" android:textColor="@color/category_defaullt" android:id="@+id/tvStoreName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" app:fontFamily="@font/roboto_medium" style="@style/tv"/>
+            <TextView android:textSize="14sp" android:textColor="@color/category_defaullt" android:id="@+id/tvStoreDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:layout_marginRight="@dimen/dp_5" android:layout_marginEnd="@dimen/dp_5" app:fontFamily="@font/roboto_light" style="@style/tv"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+                <ImageView android:id="@+id/icStoreCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_store_call" android:contentDescription="@string/app_name"/>
+                <ImageView android:id="@+id/icStoreNavigation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:src="@drawable/ic_store_navigation" android:contentDescription="@string/app_name" android:layout_marginStart="@dimen/dp_16"/>
+                <ImageView android:id="@+id/icStoreNavigationWeb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:src="@drawable/ic_store_web" android:contentDescription="@string/app_name" android:layout_marginStart="@dimen/dp_16"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

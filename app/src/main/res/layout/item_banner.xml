@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:cardUseCompatPadding="true">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_collapseMode="2">
+        <com.asksira.loopingviewpager.LoopingViewPager android:id="@+id/vpSlide" android:layout_width="match_parent" android:layout_height="match_parent" app:autoScroll="true" app:isInfinite="true" app:scrollInterval="5000" app:viewpagerAspectRatio="0"/>
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/tl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="12dp" android:layout_marginBottom="20dp" app:tabGravity="1" app:tabIndicatorHeight="0dp"/>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

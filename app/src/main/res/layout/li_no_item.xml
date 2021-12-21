@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/drawerLayout" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.airbnb.lottie.LottieAnimationView android:padding="6dp" android:visibility="visible" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:adjustViewBounds="true" app:lottie_autoPlay="true" app:lottie_loop="false" app:lottie_rawRes="@raw/no_record" app:lottie_repeatCount="3"/>
+        <TextView android:textSize="17sp" android:textColor="@color/category_defaullt" android:gravity="center" android:id="@+id/tvNoItem" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="@string/no_item" app:fontFamily="@font/roboto" style="@style/tvListNoItem"/>
+    </LinearLayout>
+</RelativeLayout>

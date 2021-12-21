@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/flPin" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ivPinTop" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginBottom="-13dp" android:rotation="180" app:srcCompat="@drawable/ic_pin"/>
+        <FrameLayout android:id="@+id/flContainer" android:background="@drawable/bg_pin" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100dp"/>
+        <ImageView android:id="@+id/ivPinBottom" android:visibility="gone" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginTop="-13dp" app:srcCompat="@drawable/ic_pin"/>
+    </LinearLayout>
+</FrameLayout>

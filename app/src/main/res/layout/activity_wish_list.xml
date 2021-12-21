@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/drawerLayout" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/tool_bar_layout"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/llListEmpty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/avEmpty" android:padding="6dp" android:visibility="visible" android:layout_width="@dimen/dp_150" android:layout_height="@dimen/dp_150" android:adjustViewBounds="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_repeatCount="2"/>
+        <TextView android:textSize="25sp" android:textColor="@color/category_defaullt" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="@string/your_wish_list_empty" app:fontFamily="@font/roboto_bold" style="@style/tv"/>
+        <TextView android:textSize="17sp" android:textColor="@color/category_defaullt" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="@string/explore_text" app:fontFamily="@font/roboto" style="@style/tv"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/appBar" app:behavior_overlapTop="0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+    <RelativeLayout android:background="@drawable/bil" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17sp" android:textColor="@android:color/black" android:id="@+id/tvBillDetails" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/bill_details" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/category_image_default" android:id="@+id/tvItemTotal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/subtotal" android:layout_toLeftOf="@+id/tvItemTotalPrice" android:layout_toStartOf="@+id/tvItemTotalPrice" style="@style/tvHead"/>
+                <TextView android:textSize="14sp" android:textColor="@android:color/black" android:id="@+id/tvItemTotalPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/category_image_default" android:id="@+id/tvTaxLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tax" android:layout_toLeftOf="@+id/tvTax" android:layout_toStartOf="@+id/tvTax" style="@style/tvHead"/>
+                <TextView android:textSize="14sp" android:textColor="@android:color/black" android:id="@+id/tvTax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlShippingFees" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/category_image_default" android:id="@+id/tvShippingFees" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/shipping" android:layout_toLeftOf="@+id/tvShippingFeesPrice" android:layout_toStartOf="@+id/tvShippingFeesPrice" style="@style/tvHead"/>
+                <TextView android:textSize="14sp" android:textColor="@android:color/black" android:id="@+id/tvShippingFeesPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="5dp">
+                <TextView android:textSize="16sp" android:textColor="@color/category_image_default" android:id="@+id/tvTotal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/total" android:layout_toLeftOf="@+id/tvTotalPrice" android:layout_toStartOf="@+id/tvTotalPrice" style="@style/tvHead"/>
+                <TextView android:textSize="16sp" android:textColor="@android:color/black" android:id="@+id/tvTotalPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <Button android:textSize="16sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnCheckOut" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/check_out" android:drawablePadding="10dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" style="@style/btn"/>
+</LinearLayout>

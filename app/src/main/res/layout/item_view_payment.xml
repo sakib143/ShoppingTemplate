@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="6dp" android:paddingEnd="6dp">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="6dp" app:cardElevation="6dp" app:cardUseCompatPadding="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:paddingStart="12dp">
+                <TextView android:textSize="17sp" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/tvHowtoPay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/choose_how_to_pay" style="@style/tvHead"/>
+                <RadioGroup android:orientation="vertical" android:paddingLeft="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="2dp">
+                    <RadioButton android:textSize="17sp" android:textColor="@android:color/black" android:id="@+id/rbProxyPay" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/proxi_pay"/>
+                    <RadioButton android:textSize="17sp" android:textColor="@android:color/black" android:id="@+id/rbCOD" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:text="@string/cod"/>
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

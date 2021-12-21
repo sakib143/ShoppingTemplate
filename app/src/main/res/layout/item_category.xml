@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+    <com.github.florent37.shapeofview.shapes.CircleView android:layout_gravity="center" android:id="@+id/circleView" android:layout_width="64dp" android:layout_height="64dp" android:elevation="4dp" app:shape_circle_borderColor="@android:color/white" app:shape_circle_borderWidth="1dp" style="@style/rc">
+        <ImageView android:id="@+id/ivBg" android:background="@color/white" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintTop_toTopOf="0"/>
+    </com.github.florent37.shapeofview.shapes.CircleView>
+    <TextView android:textSize="10sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/tvCategory" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2" app:fontFamily="@font/roboto_medium" style="@style/tvDescription"/>
+</LinearLayout>

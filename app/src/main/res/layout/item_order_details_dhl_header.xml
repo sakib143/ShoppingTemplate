@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/llContainer" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/etVerticalPadding" android:layout_marginTop="@dimen/etVerticalPadding" android:layout_marginRight="@dimen/etVerticalPadding">
+        <TextView android:textSize="14sp" android:textColor="@android:color/black" android:paddingLeft="5dp" android:paddingTop="3dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/awb_number" android:maxLines="1" android:paddingStart="5dp" android:paddingEnd="5dp" app:fontFamily="@font/roboto_light" style="@style/tvHead"/>
+        <TextView android:textSize="14sp" android:textColor="@android:color/black" android:id="@+id/tv_awb_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/etVerticalPadding" android:layout_marginTop="@dimen/etVerticalPadding" android:layout_marginRight="@dimen/etVerticalPadding" android:layout_marginBottom="@dimen/etVerticalPadding">
+        <TextView android:textSize="14sp" android:textColor="@android:color/black" android:paddingLeft="5dp" android:paddingTop="3dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/shipment_status" android:maxLines="1" android:paddingStart="5dp" android:paddingEnd="5dp" app:fontFamily="@font/roboto_light" style="@style/tvHead"/>
+        <TextView android:textSize="14sp" android:textColor="@android:color/black" android:id="@+id/tv_shipment_staus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:fontFamily="@font/roboto_medium" style="@style/tvHead"/>
+    </LinearLayout>
+</LinearLayout>

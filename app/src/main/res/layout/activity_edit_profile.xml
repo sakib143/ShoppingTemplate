@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/drawerLayout" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/tool_bar_layout"/>
+    <androidx.core.widget.NestedScrollView android:id="@+id/nsv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp">
+            <com.github.florent37.shapeofview.shapes.CircleView android:layout_gravity="center" android:id="@+id/cvAvatar" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginTop="20dp" android:elevation="2dp" app:layout_constraintDimensionRatio="1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_percent="0.3" app:shape_circle_borderColor="@android:color/white" app:shape_circle_borderWidth="2dp">
+                <ImageView android:id="@+id/ivAvatar" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            </com.github.florent37.shapeofview.shapes.CircleView>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/etHint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" app:boxStrokeColor="@color/tvToolBar" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <androidx.appcompat.widget.AppCompatEditText android:textSize="16sp" android:textColor="@color/tvToolBar" android:id="@+id/etUserName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_name" android:inputType="text" style="@style/et"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/etHint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:boxStrokeColor="@color/tvToolBar" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <androidx.appcompat.widget.AppCompatEditText android:textSize="16sp" android:textColor="@color/tvToolBar" android:id="@+id/etEmail" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_email" android:inputType="none" style="@style/et"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/etHint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:boxStrokeColor="@color/tvToolBar" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <androidx.appcompat.widget.AppCompatEditText android:textSize="16sp" android:textColor="@color/tvToolBar" android:id="@+id/etPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_phone" android:inputType="numberDecimal" style="@style/et"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/etHint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:boxStrokeColor="@color/tvToolBar" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:textSize="16sp" android:textColor="@color/tvToolBar" android:id="@+id/etCountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_country" android:inputType="text" style="@style/sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/etHint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:boxStrokeColor="@color/tvToolBar" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:textSize="16sp" android:textColor="@color/tvToolBar" android:id="@+id/etCity" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_city" android:inputType="text" style="@style/sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button android:textSize="16sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnUpdateProfile" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="@string/update_profile" style="@style/btn"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/drawerLayout" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/tool_bar_layout"/>
+    <LinearLayout android:id="@+id/llTopFilter" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+        <LinearLayout android:gravity="center" android:id="@+id/llSortBy" android:background="@drawable/view_clickable" android:padding="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16sp" android:textColor="@color/tvToolBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sort_by" android:drawablePadding="15dp" android:drawableStart="@drawable/ic_sort_by" style="@style/tv"/>
+        </LinearLayout>
+        <View android:background="@color/etHint" android:layout_width="0.2dp" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center" android:id="@+id/llFilter" android:background="@drawable/view_clickable" android:padding="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16sp" android:textColor="@color/tvToolBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filter" android:drawablePadding="15dp" android:drawableStart="@drawable/ic_filter" style="@style/tv"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/etHint" android:layout_width="match_parent" android:layout_height="0.2dp"/>
+    <androidx.cardview.widget.CardView android:id="@+id/cardView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" app:cardCornerRadius="@dimen/dp_8">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv" android:background="#11000000" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
