@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.account;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.account;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -9,23 +9,31 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.OnClick;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.base.AppConstants;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.base.BaseFragment;
-import com.kiandashopping.kiandashopping.model.accountdetail.AccountDetailResult;
-import com.kiandashopping.kiandashopping.model.accountdetail.ShippingDetail;
-import com.kiandashopping.kiandashopping.p011ui.account.activity.EditProfile;
-import com.kiandashopping.kiandashopping.p011ui.account.activity.ShippingDetails;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.base.AppConstants;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.base.BaseFragment;
+//import com.kiandashopping.kiandashopping.model.accountdetail.AccountDetailResult;
+//import com.kiandashopping.kiandashopping.model.accountdetail.ShippingDetail;
+//import com.kiandashopping.kiandashopping.p011ui.account.activity.EditProfile;
+//import com.kiandashopping.kiandashopping.p011ui.account.activity.ShippingDetails;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.AppConstants;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.base.BaseFragment;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.AccountDetailResult;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.ShippingDetail;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.activity.DashboardActivity;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.account.mvp.AccountContractor;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.account.mvp.AccountPresenter;
 import com.kiandashopping.kiandashopping.p011ui.dialog.DialogChangePassword;
 import com.kiandashopping.kiandashopping.p011ui.myorder.activity.MyOrdersActivity;
-import com.kiandashopping.kiandashopping.p011ui.wishlist.activity.WishListActivity;
-import com.kiandashopping.kiandashopping.util.GlideUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.p011ui.wishlist.activity.WishListActivity;
+//import com.kiandashopping.kiandashopping.util.GlideUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.account.AccountFragment */
 public class AccountFragment extends BaseFragment implements AccountContractor.View {

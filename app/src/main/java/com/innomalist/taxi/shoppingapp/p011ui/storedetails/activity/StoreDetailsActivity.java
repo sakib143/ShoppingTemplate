@@ -1,19 +1,25 @@
-package com.kiandashopping.kiandashopping.p011ui.storedetails.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.storedetails.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
 import com.google.android.material.tabs.TabLayout;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.model.storelist.StoreDetailsResult;
+import com.innomalist.taxi.shoppingapp.p011ui.storedetails.mvp.StoreDetailsContractor;
+import com.innomalist.taxi.shoppingapp.p011ui.storedetails.mvp.StoreDetailsPresenter;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
 import com.kiandashopping.kiandashopping.p011ui.storedetails.adapter.StoreViewPageAdapter;
-import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsContractor;
-import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsPresenter;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsContractor;
+//import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsPresenter;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.storedetails.activity.StoreDetailsActivity */
 public class StoreDetailsActivity extends BaseActivity implements StoreDetailsContractor.View {

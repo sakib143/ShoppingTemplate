@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.customview;
+package com.innomalist.taxi.shoppingapp.customview;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -8,15 +8,16 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+
 import butterknife.ButterKnife;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.customview.MyAdapter.ItemViewHolder;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public abstract class MyAdapter<VH extends ItemViewHolder> extends AbstractAdapter<VH> implements View.OnClickListener {
+public abstract class MyAdapter<VH extends MyAdapter.ItemViewHolder> extends AbstractAdapter<VH> implements View.OnClickListener {
     public static final int VT_FOOTER = -1002;
     public static final int VT_HEADER = -1001;
     public static final int VT_LOADING = -1003;
@@ -293,7 +294,7 @@ public abstract class MyAdapter<VH extends ItemViewHolder> extends AbstractAdapt
         this.isLoadingVisible = _getItemCount() == 0;
         this.recyclerView = recyclerView2;
         if (isLoadMoreEnabled()) {
-            C14332 r0 = new EndlessRecyclerViewScrollListener(recyclerView2.getLayoutManager()) {
+            EndlessRecyclerViewScrollListener r0 = new EndlessRecyclerViewScrollListener(recyclerView2.getLayoutManager()) {
                 public void onLoadMore(int i, int i2) {
                     MyAdapter.this.recyclerView.post(new Runnable() {
                         public void run() {

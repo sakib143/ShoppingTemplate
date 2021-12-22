@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.dashboard.adapter;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,12 +6,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
+//import com.asksira.loopingviewpager.LoopingPagerAdapter;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.model.dashboard.BannerDetail;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.GlideUtils;
 import com.asksira.loopingviewpager.LoopingPagerAdapter;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.model.dashboard.BannerDetail;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.GlideUtils;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.model.dashboard.BannerDetail;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.GlideUtils;
+
 import java.util.ArrayList;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.dashboard.adapter.BannerInfiniteAdapter */

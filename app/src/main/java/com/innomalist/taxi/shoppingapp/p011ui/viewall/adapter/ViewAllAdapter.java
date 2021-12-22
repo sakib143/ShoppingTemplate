@@ -1,21 +1,30 @@
-package com.kiandashopping.kiandashopping.p011ui.viewall.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.viewall.adapter;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.customview.MyAdapter;
+import com.innomalist.taxi.shoppingapp.model.viewall.ProductList;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.GlideUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+
 import butterknife.BindView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
-import com.facebook.appevents.AppEventsConstants;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.customview.MyAdapter;
-import com.kiandashopping.kiandashopping.model.viewall.ProductList;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.GlideUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.apptube.ecommerce.R;
+//import com.facebook.appevents.AppEventsConstants;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.customview.MyAdapter;
+//import com.kiandashopping.kiandashopping.model.viewall.ProductList;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.GlideUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.List;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.viewall.adapter.ViewAllAdapter */

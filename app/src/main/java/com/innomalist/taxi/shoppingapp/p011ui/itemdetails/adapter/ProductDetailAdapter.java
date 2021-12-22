@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.itemdetails.adapter;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;
@@ -15,25 +15,34 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
 import com.google.android.material.tabs.TabLayout;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.customview.MyAdapter;
-import com.kiandashopping.kiandashopping.customview.StartSnapHelper;
-import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsResult;
-import com.kiandashopping.kiandashopping.model.itemdetails.RelatedProduct;
-import com.kiandashopping.kiandashopping.model.itemdetails.StoreDetail;
-import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.ColorAdapter;
-import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.ProductDetailAdapter;
-import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.RelatedProductAdapter;
-import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.ReviewAdapter;
-import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.SizeAdapter;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.ConversionUtils;
-import com.kiandashopping.kiandashopping.util.DateTime;
-import com.kiandashopping.kiandashopping.util.GlideUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.customview.MyAdapter;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.ProductDetailsResult;
+import com.innomalist.taxi.shoppingapp.p011ui.itemdetails.adapter.ColorAdapter;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.ConversionUtils;
+import com.innomalist.taxi.shoppingapp.util.DateTime;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.customview.MyAdapter;
+//import com.kiandashopping.kiandashopping.customview.StartSnapHelper;
+//import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsResult;
+//import com.kiandashopping.kiandashopping.model.itemdetails.RelatedProduct;
+//import com.kiandashopping.kiandashopping.model.itemdetails.StoreDetail;
+//import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.ColorAdapter;
+//import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.ProductDetailAdapter;
+//import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.RelatedProductAdapter;
+//import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.ReviewAdapter;
+//import com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter.SizeAdapter;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.ConversionUtils;
+//import com.kiandashopping.kiandashopping.util.DateTime;
+//import com.kiandashopping.kiandashopping.util.GlideUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Objects;
@@ -622,7 +631,7 @@ public class ProductDetailAdapter extends MyAdapter<MyAdapter.ItemViewHolder> {
 
         public ColorViewHolder(MyAdapter myAdapter) {
             super(myAdapter, (int) R.layout.item_dashboard_category);
-            new StartSnapHelper().attachToRecyclerView(this.f246rv);
+            new com.kiandashopping.kiandashopping.customview.StartSnapHelper().attachToRecyclerView(this.f246rv);
             ViewCompat.setNestedScrollingEnabled(this.f246rv, false);
         }
 

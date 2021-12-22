@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -13,7 +13,9 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 import android.widget.DatePicker;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
+
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+
 import java.lang.reflect.Field;
 
 public final class ViewUtils {
@@ -51,7 +53,7 @@ public final class ViewUtils {
         if (view.getVisibility() == 8) {
             view.measure(View.MeasureSpec.makeMeasureSpec(0, 0), View.MeasureSpec.makeMeasureSpec(0, 0));
             final int intValue = view.getTag() != null ? ((Integer) view.getTag()).intValue() : view.getMeasuredHeight();
-            C16132 r1 = new Animation() {
+            Animation r1 = new Animation() {
                 public boolean willChangeBounds() {
                     return true;
                 }
@@ -74,7 +76,7 @@ public final class ViewUtils {
         if (view.getVisibility() == 0) {
             final int measuredHeight = view.getMeasuredHeight();
             view.setTag(Integer.valueOf(measuredHeight));
-            C16143 r1 = new Animation() {
+            Animation r1 = new Animation() {
                 public boolean willChangeBounds() {
                     return true;
                 }

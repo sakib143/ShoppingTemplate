@@ -1,10 +1,11 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.dashboard.adapter;
 
 import android.view.View;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.asksira.loopingviewpager.LoopingViewPager;
-import com.kiandashopping.kiandashopping.model.dashboard.BannerDetail;
+import com.innomalist.taxi.shoppingapp.model.dashboard.BannerDetail;
+//import com.kiandashopping.kiandashopping.model.dashboard.BannerDetail;
 import java.util.ArrayList;
 import java.util.List;
 

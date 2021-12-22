@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;

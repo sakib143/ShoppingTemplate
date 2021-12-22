@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

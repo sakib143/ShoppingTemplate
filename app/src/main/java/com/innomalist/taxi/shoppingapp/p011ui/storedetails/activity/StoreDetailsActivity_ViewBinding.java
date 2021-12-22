@@ -1,11 +1,11 @@
-package com.kiandashopping.kiandashopping.p011ui.storedetails.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.storedetails.activity;
 
 import android.view.View;
 import androidx.viewpager.widget.ViewPager;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
 import com.google.android.material.tabs.TabLayout;
+import com.innomalist.taxi.shoppingapp.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.storedetails.activity.StoreDetailsActivity_ViewBinding */
 public class StoreDetailsActivity_ViewBinding implements Unbinder {

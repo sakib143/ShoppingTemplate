@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping;
+package com.innomalist.taxi.shoppingapp;
 
 public interface SheetInterface extends ViewInterface {
     int getLayout();

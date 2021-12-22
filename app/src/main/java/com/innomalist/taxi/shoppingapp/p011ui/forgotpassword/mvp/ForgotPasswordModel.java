@@ -1,11 +1,17 @@
-package com.kiandashopping.kiandashopping.p011ui.forgotpassword.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.forgotpassword.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.forgotpassword.ForgotPasswordRequest;
-import com.kiandashopping.kiandashopping.p011ui.forgotpassword.mvp.ForgotPasswordContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import p013io.reactivex.observers.DisposableSingleObserver;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.forgotpassword.ForgotPasswordRequest;
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.forgotpassword.ForgotPasswordRequest;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+//import com.kiandashopping.kiandashopping.p011ui.forgotpassword.mvp.ForgotPasswordContractor;
+
+import io.reactivex.observers.DisposableSingleObserver;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import p013io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.forgotpassword.mvp.ForgotPasswordModel */
 public class ForgotPasswordModel extends BaseModel implements ForgotPasswordContractor.Model {

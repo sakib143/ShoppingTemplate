@@ -1,16 +1,14 @@
-package com.kiandashopping.kiandashopping.p011ui.confirmshipping.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.confirmshipping.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.AccountDetailResult;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.ShippingDetail;
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+import com.innomalist.taxi.shoppingapp.model.country.CountryDetail;
 import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.accountdetail.AccountDetailResult;
-import com.kiandashopping.kiandashopping.model.accountdetail.ShippingDetail;
-import com.kiandashopping.kiandashopping.model.accountdetail.UserDetail;
-import com.kiandashopping.kiandashopping.model.category.LangRequest;
-import com.kiandashopping.kiandashopping.model.country.CountryDetail;
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.confirmshipping.mvp.ConfirmShippingContractor */
 public interface ConfirmShippingContractor {

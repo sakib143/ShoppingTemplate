@@ -1,7 +1,9 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 import android.util.Patterns;
-import com.apptube.ecommerce.R;
+
+import com.innomalist.taxi.shoppingapp.R;
+
 import java.util.regex.Pattern;
 
 public final class ValidationUtils {

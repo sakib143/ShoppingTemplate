@@ -1,17 +1,17 @@
-package com.kiandashopping.kiandashopping.p011ui.confirmshipping.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.confirmshipping.mvp;
 
 import android.util.Patterns;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.base.BasePresenter;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.accountdetail.AccountDetailResult;
-import com.kiandashopping.kiandashopping.model.accountdetail.ShippingDetail;
-import com.kiandashopping.kiandashopping.model.accountdetail.UserDetail;
-import com.kiandashopping.kiandashopping.model.category.LangRequest;
-import com.kiandashopping.kiandashopping.model.country.CountryDetail;
-import com.kiandashopping.kiandashopping.p011ui.confirmshipping.mvp.ConfirmShippingContractor;
+
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.base.BasePresenter;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.AccountDetailResult;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.ShippingDetail;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.UserDetail;
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+import com.innomalist.taxi.shoppingapp.model.country.CountryDetail;
 import com.kiandashopping.kiandashopping.util.NetworkUtils;
 import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.List;

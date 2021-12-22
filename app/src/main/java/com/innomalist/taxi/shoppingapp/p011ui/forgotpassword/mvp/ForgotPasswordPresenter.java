@@ -1,14 +1,21 @@
-package com.kiandashopping.kiandashopping.p011ui.forgotpassword.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.forgotpassword.mvp;
 
 import android.util.Patterns;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.base.BasePresenter;
-import com.kiandashopping.kiandashopping.model.forgotpassword.ForgotPasswordRequest;
-import com.kiandashopping.kiandashopping.p011ui.forgotpassword.mvp.ForgotPasswordContractor;
-import com.kiandashopping.kiandashopping.util.NetworkUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.base.BasePresenter;
+//import com.kiandashopping.kiandashopping.model.forgotpassword.ForgotPasswordRequest;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.base.BasePresenter;
+import com.innomalist.taxi.shoppingapp.model.forgotpassword.ForgotPasswordRequest;
+import com.innomalist.taxi.shoppingapp.util.NetworkUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.p011ui.forgotpassword.mvp.ForgotPasswordContractor;
+//import com.kiandashopping.kiandashopping.util.NetworkUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.forgotpassword.mvp.ForgotPasswordPresenter */
 public class ForgotPasswordPresenter extends BasePresenter implements ForgotPasswordContractor.Presenter {

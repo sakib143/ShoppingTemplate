@@ -17,22 +17,26 @@ import android.text.style.RelativeSizeSpan;
 import android.text.style.SuperscriptSpan;
 import android.util.Base64;
 import android.util.Log;
+
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
-import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.exifinterface.media.ExifInterface;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import com.google.android.gms.maps.model.BitmapDescriptor;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.innomalist.taxi.shoppingapp.R;
 import com.innomalist.taxi.shoppingapp.base.AppConstants;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.model.dashboard.NavigationMenu;
+import com.innomalist.taxi.shoppingapp.model.lang.Languages;
 import com.innomalist.taxi.shoppingapp.model.register.RequestRegister;
 import com.innomalist.taxi.shoppingapp.model.storelist.DealListByShop;
 import com.innomalist.taxi.shoppingapp.model.storelist.ProductListByShop;
 import com.innomalist.taxi.shoppingapp.model.storelist.StoreReview;
+import com.innomalist.taxi.shoppingapp.model.viewall.ProductFilter;
+import com.innomalist.taxi.shoppingapp.model.viewall.ProductSortBy;
 import com.kiandashopping.kiandashopping.customview.CustomTypefaceSpan;
 import java.io.IOException;
 import java.net.SocketTimeoutException;
@@ -42,6 +46,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import retrofit2.HttpException;
 
 public final class AppUtils {

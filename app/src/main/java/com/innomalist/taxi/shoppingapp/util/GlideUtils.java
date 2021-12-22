@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -11,10 +11,9 @@ import com.bumptech.glide.load.Transformation;
 import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory;
-import com.kiandashopping.kiandashopping.base.AppConstants;
+import com.innomalist.taxi.shoppingapp.base.AppConstants;
 import com.kiandashopping.kiandashopping.base.GlideApp;
 import java.io.File;
-import p014jp.wasabeef.glide.transformations.BlurTransformation;
 
 public class GlideUtils {
     public static void showImage(Context context, ImageView imageView, int i, String str) {

@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.viewholder;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.viewholder;
 
 import android.graphics.ColorFilter;
 import android.graphics.PorterDuff;
@@ -14,7 +14,8 @@ import com.airbnb.lottie.LottieProperty;
 import com.airbnb.lottie.model.KeyPath;
 import com.airbnb.lottie.value.LottieFrameInfo;
 import com.airbnb.lottie.value.SimpleLottieValueCallback;
-import com.apptube.ecommerce.R;
+import com.innomalist.taxi.shoppingapp.R;
+//import com.apptube.ecommerce.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.viewholder.BottomTabs */
 public class BottomTabs {

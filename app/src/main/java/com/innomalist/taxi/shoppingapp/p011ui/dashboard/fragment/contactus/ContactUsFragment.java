@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.contactus;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.contactus;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,18 +13,24 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.OnClick;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
+import com.innomalist.taxi.shoppingapp.BuildConfig;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.AppConstants;
+import com.innomalist.taxi.shoppingapp.base.BaseFragment;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.ContactUsResult;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
 import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
-import com.kiandashopping.kiandashopping.BuildConfig;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.base.AppConstants;
-import com.kiandashopping.kiandashopping.base.BaseFragment;
-import com.kiandashopping.kiandashopping.model.accountdetail.ContactUsResult;
+//import com.kiandashopping.kiandashopping.BuildConfig;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.base.AppConstants;
+//import com.kiandashopping.kiandashopping.base.BaseFragment;
+//import com.kiandashopping.kiandashopping.model.accountdetail.ContactUsResult;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.contactus.mvp.ContactUsContractor;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.contactus.mvp.ContactUsPresenter;
 

@@ -1,16 +1,20 @@
-package com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.itemdetails.adapter;
 
 import android.view.View;
 import android.widget.ImageView;
 import butterknife.BindView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
 import com.devs.vectorchildfinder.VectorChildFinder;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.customview.MyAdapter;
-import com.kiandashopping.kiandashopping.model.itemdetails.ProductColorDetail;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.customview.MyAdapter;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.ProductColorDetail;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.customview.MyAdapter;
+//import com.kiandashopping.kiandashopping.model.itemdetails.ProductColorDetail;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.List;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.itemdetails.adapter.ColorAdapter */

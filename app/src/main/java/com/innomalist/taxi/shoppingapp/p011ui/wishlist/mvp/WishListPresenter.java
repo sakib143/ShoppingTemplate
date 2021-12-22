@@ -1,18 +1,31 @@
-package com.kiandashopping.kiandashopping.p011ui.wishlist.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.wishlist.mvp;
 
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.base.BasePresenter;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.category.LangRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
-import com.kiandashopping.kiandashopping.model.wishlist.MyWishListResult;
-import com.kiandashopping.kiandashopping.p011ui.wishlist.mvp.WishListContractor;
-import com.kiandashopping.kiandashopping.util.NetworkUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.base.BasePresenter;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.category.LangRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
+//import com.kiandashopping.kiandashopping.model.wishlist.MyWishListResult;
+//import com.kiandashopping.kiandashopping.p011ui.wishlist.mvp.WishListContractor;
+//import com.kiandashopping.kiandashopping.util.NetworkUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.base.BasePresenter;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.RequestAddWishList;
+import com.innomalist.taxi.shoppingapp.model.wishlist.MyWishListResult;
+import com.innomalist.taxi.shoppingapp.util.NetworkUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
+
+import io.reactivex.disposables.Disposable;
+//import p013io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.wishlist.mvp.WishListPresenter */
 public class WishListPresenter extends BasePresenter implements WishListContractor.Presenter {

@@ -3,12 +3,15 @@ package com.kiandashopping.kiandashopping.p011ui.storedetails.adapter;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
-import com.kiandashopping.kiandashopping.p011ui.storedetails.fragment.deals.DealsFragment;
+//import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
+//import com.kiandashopping.kiandashopping.p011ui.storedetails.fragment.deals.DealsFragment;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.model.storelist.StoreDetailsResult;
+import com.innomalist.taxi.shoppingapp.p011ui.storedetails.fragment.deals.DealsFragment;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
 import com.kiandashopping.kiandashopping.p011ui.storedetails.fragment.product.ProductsFragment;
 import com.kiandashopping.kiandashopping.p011ui.storedetails.fragment.store.StoreFragment;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.storedetails.adapter.StoreViewPageAdapter */
 public class StoreViewPageAdapter extends FragmentPagerAdapter {

@@ -1,12 +1,20 @@
-package com.kiandashopping.kiandashopping.p011ui.viewall.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.viewall.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.viewall.AllItemRequest;
-import com.kiandashopping.kiandashopping.model.viewall.ProductList;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.model.viewall.AllItemRequest;
+//import com.kiandashopping.kiandashopping.model.viewall.ProductList;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ViewInterface;
+import com.innomalist.taxi.shoppingapp.model.viewall.AllItemRequest;
+import com.innomalist.taxi.shoppingapp.model.viewall.ProductList;
+
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
+
+import io.reactivex.disposables.Disposable;
+//import p013io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.viewall.mvp.ViewAllContractor */
 public interface ViewAllContractor {

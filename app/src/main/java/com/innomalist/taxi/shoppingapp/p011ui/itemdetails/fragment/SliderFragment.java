@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.itemdetails.fragment;
+package com.innomalist.taxi.shoppingapp.p011ui.itemdetails.fragment;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -6,13 +6,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.base.BaseFragment;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.GlideUtils;
+
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.base.BaseFragment;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.GlideUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.base.BaseFragment;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.GlideUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.itemdetails.fragment.SliderFragment */
 public class SliderFragment extends BaseFragment {

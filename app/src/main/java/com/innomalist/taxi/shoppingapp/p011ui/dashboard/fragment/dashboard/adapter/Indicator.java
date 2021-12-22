@@ -1,11 +1,13 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.dashboard.adapter;
 
 import android.view.View;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.google.android.material.tabs.TabLayout;
-import com.kiandashopping.kiandashopping.model.dashboard.BannerDetail;
-import com.kiandashopping.kiandashopping.model.dashboard.DealsOfDayDetail;
+import com.innomalist.taxi.shoppingapp.model.dashboard.BannerDetail;
+import com.innomalist.taxi.shoppingapp.model.dashboard.DealsOfDayDetail;
+//import com.kiandashopping.kiandashopping.model.dashboard.BannerDetail;
+//import com.kiandashopping.kiandashopping.model.dashboard.DealsOfDayDetail;
 import java.util.List;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.dashboard.adapter.Indicator */

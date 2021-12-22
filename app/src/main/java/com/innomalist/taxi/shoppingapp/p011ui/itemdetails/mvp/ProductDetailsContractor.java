@@ -1,16 +1,29 @@
-package com.kiandashopping.kiandashopping.p011ui.itemdetails.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.itemdetails.mvp;
 
-import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddDealToCartRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddReviewRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddToCartRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddedCartResult;
-import com.kiandashopping.kiandashopping.model.itemdetails.DealDetailsRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsResult;
-import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
-import p013io.reactivex.disposables.Disposable;
+//import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddDealToCartRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddReviewRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddToCartRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddedCartResult;
+//import com.kiandashopping.kiandashopping.model.itemdetails.DealDetailsRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsResult;
+//import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
+//import p013io.reactivex.disposables.Disposable;
+
+import com.innomalist.taxi.shoppingapp.ViewInterface;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddDealToCartRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddReviewRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddToCartRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddedCartResult;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.DealDetailsRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.ProductDetailsRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.ProductDetailsResult;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.RequestAddWishList;
+
+import io.reactivex.rxjava3.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.itemdetails.mvp.ProductDetailsContractor */
 public interface ProductDetailsContractor {

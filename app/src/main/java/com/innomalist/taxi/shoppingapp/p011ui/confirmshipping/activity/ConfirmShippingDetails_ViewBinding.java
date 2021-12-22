@@ -3,15 +3,9 @@ package com.innomalist.taxi.shoppingapp.p011ui.confirmshipping.activity;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import androidx.appcompat.widget.AppCompatAutoCompleteTextView;
-import androidx.appcompat.widget.SwitchCompat;
-import androidx.core.widget.NestedScrollView;
 
 import com.innomalist.taxi.shoppingapp.R;
 
-import butterknife.Unbinder;
-import butterknife.internal.DebouncingOnClickListener;
-import butterknife.internal.Utils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.confirmshipping.activity.ConfirmShippingDetails_ViewBinding */
 public class ConfirmShippingDetails_ViewBinding implements Unbinder {

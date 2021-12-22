@@ -1,12 +1,20 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.nearby.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.nearby.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.nearme.NearByRequest;
-import com.kiandashopping.kiandashopping.model.nearme.NearByResult;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.model.nearme.NearByRequest;
+//import com.kiandashopping.kiandashopping.model.nearme.NearByResult;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ViewInterface;
+import com.innomalist.taxi.shoppingapp.model.nearme.NearByRequest;
+import com.innomalist.taxi.shoppingapp.model.nearme.NearByResult;
+
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
+
+import io.reactivex.disposables.Disposable;
+//import p013io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.nearby.mvp.NearByContractor */
 public interface NearByContractor {

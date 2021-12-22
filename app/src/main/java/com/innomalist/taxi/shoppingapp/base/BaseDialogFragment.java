@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.base;
+package com.innomalist.taxi.shoppingapp.base;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -16,9 +16,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.DialogInterface;
-import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.DialogInterface;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.DialogInterface;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
 import com.kiandashopping.kiandashopping.p011ui.dialog.DialogConnectionErrorRetry;
 import com.theartofdev.edmodo.cropper.CropImageView;
 

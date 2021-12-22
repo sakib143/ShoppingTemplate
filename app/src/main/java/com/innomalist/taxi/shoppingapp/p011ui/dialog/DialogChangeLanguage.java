@@ -1,18 +1,27 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.base.BaseDialogFragment;
+import com.innomalist.taxi.shoppingapp.model.lang.Languages;
+import com.innomalist.taxi.shoppingapp.p011ui.dialog.adapter.DialogLanguageAdapter;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.base.BaseDialogFragment;
-import com.kiandashopping.kiandashopping.model.lang.Languages;
-import com.kiandashopping.kiandashopping.p011ui.dialog.adapter.DialogLanguageAdapter;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.base.BaseDialogFragment;
+//import com.kiandashopping.kiandashopping.model.lang.Languages;
+//import com.kiandashopping.kiandashopping.p011ui.dialog.adapter.DialogLanguageAdapter;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.ArrayList;
 import java.util.Objects;
 

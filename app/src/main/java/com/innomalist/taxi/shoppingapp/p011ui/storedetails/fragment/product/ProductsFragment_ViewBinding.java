@@ -1,10 +1,12 @@
-package com.kiandashopping.kiandashopping.p011ui.storedetails.fragment.product;
+package com.innomalist.taxi.shoppingapp.p011ui.storedetails.fragment.product;
 
 import android.view.View;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.innomalist.taxi.shoppingapp.R;
+
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.storedetails.fragment.product.ProductsFragment_ViewBinding */
 public class ProductsFragment_ViewBinding implements Unbinder {

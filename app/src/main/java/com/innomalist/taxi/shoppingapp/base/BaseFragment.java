@@ -13,9 +13,11 @@ import androidx.fragment.app.Fragment;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
+import com.innomalist.taxi.shoppingapp.FragmentInterface;
+import com.innomalist.taxi.shoppingapp.data.source.AppRepository;
 import com.innomalist.taxi.shoppingapp.data.source.sharedpreference.AppPreferenceDataSource;
-import com.kiandashopping.kiandashopping.FragmentInterface;
-import com.kiandashopping.kiandashopping.data.source.AppRepository;
+//import com.kiandashopping.kiandashopping.FragmentInterface;
+//import com.kiandashopping.kiandashopping.data.source.AppRepository;
 import com.kiandashopping.kiandashopping.p011ui.dialog.DialogConnectionErrorRetry;
 import com.theartofdev.edmodo.cropper.CropImageView;
 import java.util.List;

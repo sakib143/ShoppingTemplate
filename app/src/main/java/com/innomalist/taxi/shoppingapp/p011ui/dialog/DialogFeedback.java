@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,10 +7,13 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import androidx.fragment.app.FragmentActivity;
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
 import com.kiandashopping.kiandashopping.base.BaseSheetFragment;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.Objects;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dialog.DialogFeedback */

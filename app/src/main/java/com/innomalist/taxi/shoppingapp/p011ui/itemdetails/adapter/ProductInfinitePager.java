@@ -1,13 +1,17 @@
-package com.kiandashopping.kiandashopping.p011ui.itemdetails.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.itemdetails.adapter;
 
 import android.os.Handler;
 import android.view.View;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager.widget.ViewPager;
+
+import com.innomalist.taxi.shoppingapp.model.itemdetails.ProductImage;
+import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.kiandashopping.kiandashopping.model.itemdetails.ProductImage;
-import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
+//import com.kiandashopping.kiandashopping.model.itemdetails.ProductImage;
+//import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;

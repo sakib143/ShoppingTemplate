@@ -1,12 +1,16 @@
-package com.kiandashopping.kiandashopping.p011ui.wishlist.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.wishlist.activity;
 
 import android.view.View;
 import android.widget.LinearLayout;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.airbnb.lottie.LottieAnimationView;
+import com.innomalist.taxi.shoppingapp.R;
+
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.airbnb.lottie.LottieAnimationView;
-import com.apptube.ecommerce.R;
+//import com.airbnb.lottie.LottieAnimationView;
+//import com.apptube.ecommerce.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.wishlist.activity.WishListActivity_ViewBinding */
 public class WishListActivity_ViewBinding implements Unbinder {

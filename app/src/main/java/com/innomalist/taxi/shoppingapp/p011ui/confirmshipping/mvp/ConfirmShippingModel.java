@@ -1,20 +1,10 @@
-package com.kiandashopping.kiandashopping.p011ui.confirmshipping.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.confirmshipping.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.data.rest.ApiInterface;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.accountdetail.AccountDetailResult;
-import com.kiandashopping.kiandashopping.model.accountdetail.UserDetail;
-import com.kiandashopping.kiandashopping.model.category.LangRequest;
-import com.kiandashopping.kiandashopping.model.country.CountryDetail;
-import com.kiandashopping.kiandashopping.p011ui.confirmshipping.mvp.ConfirmShippingContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+import com.innomalist.taxi.shoppingapp.model.country.CountryDetail;
+
 import java.util.List;
-import okhttp3.MediaType;
-import okhttp3.MultipartBody;
-import okhttp3.RequestBody;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.confirmshipping.mvp.ConfirmShippingModel */
 public class ConfirmShippingModel extends BaseModel implements ConfirmShippingContractor.Model {

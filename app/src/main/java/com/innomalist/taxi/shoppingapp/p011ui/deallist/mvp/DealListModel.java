@@ -1,14 +1,21 @@
-package com.kiandashopping.kiandashopping.p011ui.deallist.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.deallist.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.deallist.RequestDealList;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
 import com.kiandashopping.kiandashopping.model.deallist.ResultDealList;
-import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListContractor;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
+
+import io.reactivex.observers.DisposableSingleObserver;
+import io.reactivex.rxjava3.disposables.Disposable;
+//import p013io.reactivex.disposables.Disposable;
+//import p013io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.deallist.mvp.DealListModel */
 public class DealListModel extends BaseModel implements DealListContractor.Model {

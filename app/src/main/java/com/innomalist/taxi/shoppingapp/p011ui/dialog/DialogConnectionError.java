@@ -1,9 +1,14 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.base.BaseDialogFragment;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.base.BaseDialogFragment;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
+
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.base.BaseDialogFragment;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dialog.DialogConnectionError */
 public class DialogConnectionError extends BaseDialogFragment {

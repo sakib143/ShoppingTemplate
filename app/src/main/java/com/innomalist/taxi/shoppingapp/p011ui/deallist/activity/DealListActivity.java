@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.deallist.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.deallist.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,16 +7,24 @@ import android.os.Bundle;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.model.deallist.RequestDealList;
+import com.innomalist.taxi.shoppingapp.p011ui.deallist.adapter.DealListAdapter;
+import com.innomalist.taxi.shoppingapp.p011ui.deallist.mvp.DealListContractor;
+import com.innomalist.taxi.shoppingapp.p011ui.deallist.mvp.DealListPresenter;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
 import com.kiandashopping.kiandashopping.model.deallist.ResultDealList;
-import com.kiandashopping.kiandashopping.p011ui.deallist.adapter.DealListAdapter;
-import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListContractor;
-import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListPresenter;
+//import com.kiandashopping.kiandashopping.p011ui.deallist.adapter.DealListAdapter;
+//import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListContractor;
+//import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListPresenter;
 import com.kiandashopping.kiandashopping.p011ui.itemdetails.activity.ProductDetailActivity;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.ArrayList;
 import java.util.List;
 

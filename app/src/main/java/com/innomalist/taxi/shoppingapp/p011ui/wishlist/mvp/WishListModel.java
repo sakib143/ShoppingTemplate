@@ -1,15 +1,25 @@
-package com.kiandashopping.kiandashopping.p011ui.wishlist.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.wishlist.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.category.LangRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
-import com.kiandashopping.kiandashopping.model.wishlist.MyWishListResult;
-import com.kiandashopping.kiandashopping.p011ui.wishlist.mvp.WishListContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.category.LangRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
+//import com.kiandashopping.kiandashopping.model.wishlist.MyWishListResult;
+//import com.kiandashopping.kiandashopping.p011ui.wishlist.mvp.WishListContractor;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.RequestAddWishList;
+import com.innomalist.taxi.shoppingapp.model.wishlist.MyWishListResult;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
+
+import io.reactivex.disposables.Disposable;
+import io.reactivex.observers.DisposableSingleObserver;
+//import p013io.reactivex.disposables.Disposable;
+//import p013io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.wishlist.mvp.WishListModel */
 public class WishListModel extends BaseModel implements WishListContractor.Model {

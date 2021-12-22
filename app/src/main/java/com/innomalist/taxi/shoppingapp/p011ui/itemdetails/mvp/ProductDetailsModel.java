@@ -1,19 +1,34 @@
-package com.kiandashopping.kiandashopping.p011ui.itemdetails.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.itemdetails.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddDealToCartRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddReviewRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddToCartRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.AddedCartResult;
-import com.kiandashopping.kiandashopping.model.itemdetails.DealDetailsRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsRequest;
-import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsResult;
-import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
-import com.kiandashopping.kiandashopping.p011ui.itemdetails.mvp.ProductDetailsContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddDealToCartRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddReviewRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddToCartRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.AddedCartResult;
+//import com.kiandashopping.kiandashopping.model.itemdetails.DealDetailsRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsRequest;
+//import com.kiandashopping.kiandashopping.model.itemdetails.ProductDetailsResult;
+//import com.kiandashopping.kiandashopping.model.itemdetails.RequestAddWishList;
+//import com.kiandashopping.kiandashopping.p011ui.itemdetails.mvp.ProductDetailsContractor;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import p013io.reactivex.disposables.Disposable;
+//import p013io.reactivex.observers.DisposableSingleObserver;
+
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddDealToCartRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddReviewRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddToCartRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.AddedCartResult;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.DealDetailsRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.ProductDetailsRequest;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.ProductDetailsResult;
+import com.innomalist.taxi.shoppingapp.model.itemdetails.RequestAddWishList;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+
+import io.reactivex.disposables.Disposable;
+import io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.itemdetails.mvp.ProductDetailsModel */
 public class ProductDetailsModel extends BaseModel implements ProductDetailsContractor.Model {

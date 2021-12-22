@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.mycart.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.mycart.adapter;
 
 import android.view.View;
 import android.widget.Button;
@@ -9,15 +9,22 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.AppConstants;
-import com.kiandashopping.kiandashopping.customview.MyAdapter;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.AppConstants;
+//import com.kiandashopping.kiandashopping.customview.MyAdapter;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.AppConstants;
+import com.innomalist.taxi.shoppingapp.customview.MyAdapter;
+import com.innomalist.taxi.shoppingapp.model.mycart.CartDetail;
+import com.innomalist.taxi.shoppingapp.model.mycart.MyCartResult;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
 import com.kiandashopping.kiandashopping.customview.StartSnapHelper;
-import com.kiandashopping.kiandashopping.model.mycart.CartDetail;
-import com.kiandashopping.kiandashopping.model.mycart.MyCartResult;
+//import com.kiandashopping.kiandashopping.model.mycart.CartDetail;
+//import com.kiandashopping.kiandashopping.model.mycart.MyCartResult;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.mycart.adapter.ItemAdapter;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.List;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.mycart.adapter.CartAdapter */

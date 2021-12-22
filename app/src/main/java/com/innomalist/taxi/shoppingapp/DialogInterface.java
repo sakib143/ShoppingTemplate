@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping;
+package com.innomalist.taxi.shoppingapp;
 
 public interface DialogInterface extends ViewInterface {
     int getLayout();

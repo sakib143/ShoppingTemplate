@@ -1,14 +1,23 @@
-package com.kiandashopping.kiandashopping.p011ui.viewall.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.viewall.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.viewall.AllItemRequest;
-import com.kiandashopping.kiandashopping.model.viewall.ProductList;
-import com.kiandashopping.kiandashopping.p011ui.viewall.mvp.ViewAllContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.viewall.AllItemRequest;
+//import com.kiandashopping.kiandashopping.model.viewall.ProductList;
+//import com.kiandashopping.kiandashopping.p011ui.viewall.mvp.ViewAllContractor;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.viewall.AllItemRequest;
+import com.innomalist.taxi.shoppingapp.model.viewall.ProductList;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
+
+import io.reactivex.disposables.Disposable;
+import io.reactivex.observers.DisposableSingleObserver;
+//import p013io.reactivex.disposables.Disposable;
+//import p013io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.viewall.mvp.ViewAllModel */
 public class ViewAllModel extends BaseModel implements ViewAllContractor.Model {

@@ -1,11 +1,19 @@
-package com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.verifyotp.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.register.RegisterResult;
-import com.kiandashopping.kiandashopping.model.register.RequestRegister;
-import p013io.reactivex.disposables.Disposable;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.model.register.RegisterResult;
+//import com.kiandashopping.kiandashopping.model.register.RequestRegister;
+//import p013io.reactivex.disposables.Disposable;
+
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ViewInterface;
+import com.innomalist.taxi.shoppingapp.model.register.RegisterResult;
+import com.innomalist.taxi.shoppingapp.model.register.RequestRegister;
+
+import io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.verifyotp.mvp.VerifyOtpContractor */
 public interface VerifyOtpContractor {

@@ -1,11 +1,14 @@
-package com.kiandashopping.kiandashopping.p011ui.forgotpassword.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.forgotpassword.activity;
 
 import android.view.View;
 import androidx.appcompat.widget.AppCompatEditText;
+
+import com.innomalist.taxi.shoppingapp.R;
+
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.forgotpassword.activity.ForgotPassword_ViewBinding */
 public class ForgotPassword_ViewBinding implements Unbinder {

@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping;
+package com.innomalist.taxi.shoppingapp;
 
 import android.content.Context;
 import android.net.Uri;

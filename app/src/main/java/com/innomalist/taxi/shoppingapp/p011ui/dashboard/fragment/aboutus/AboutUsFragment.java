@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.aboutus;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,12 +7,18 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import androidx.fragment.app.Fragment;
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.base.BaseFragment;
-import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp.AboutUsContractor;
-import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp.AboutUsPresenter;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.base.BaseFragment;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseFragment;
+import com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.aboutus.mvp.AboutUsContractor;
+import com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.aboutus.mvp.AboutUsPresenter;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+//import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp.AboutUsContractor;
+//import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp.AboutUsPresenter;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.aboutus.AboutUsFragment */
 public class AboutUsFragment extends BaseFragment implements AboutUsContractor.View {

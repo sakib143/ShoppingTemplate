@@ -1,7 +1,10 @@
-package com.kiandashopping.kiandashopping.p011ui.forgotpassword.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.forgotpassword.mvp;
 
-import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.forgotpassword.ForgotPasswordRequest;
+//import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.model.forgotpassword.ForgotPasswordRequest;
+
+import com.innomalist.taxi.shoppingapp.ViewInterface;
+import com.innomalist.taxi.shoppingapp.model.forgotpassword.ForgotPasswordRequest;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.forgotpassword.mvp.ForgotPasswordContractor */
 public interface ForgotPasswordContractor {

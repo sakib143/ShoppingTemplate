@@ -1,6 +1,7 @@
 package com.kiandashopping.kiandashopping;
 
-import com.apptube.ecommerce.R;
+
+import com.innomalist.taxi.shoppingapp.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.R */
 public final class C1418R {

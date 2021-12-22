@@ -1,12 +1,18 @@
-package com.kiandashopping.kiandashopping.p011ui.deallist.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.deallist.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ViewInterface;
+import com.innomalist.taxi.shoppingapp.model.deallist.RequestDealList;
 import com.kiandashopping.kiandashopping.model.deallist.ResultDealList;
 import java.util.List;
-import p013io.reactivex.disposables.Disposable;
+
+import io.reactivex.rxjava3.disposables.Disposable;
+//import p013io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.deallist.mvp.DealListContractor */
 public interface DealListContractor {

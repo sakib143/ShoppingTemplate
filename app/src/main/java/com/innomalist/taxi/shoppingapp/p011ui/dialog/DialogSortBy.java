@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,13 +6,19 @@ import android.view.View;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.model.viewall.ProductSortBy;
+import com.innomalist.taxi.shoppingapp.p011ui.dialog.adapter.DialogSortByAdapter;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
 import com.kiandashopping.kiandashopping.base.BaseSheetFragment;
-import com.kiandashopping.kiandashopping.model.viewall.ProductSortBy;
-import com.kiandashopping.kiandashopping.p011ui.dialog.adapter.DialogSortByAdapter;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.model.viewall.ProductSortBy;
+//import com.kiandashopping.kiandashopping.p011ui.dialog.adapter.DialogSortByAdapter;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.ArrayList;
 import java.util.Objects;
 

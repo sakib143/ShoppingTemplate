@@ -10,10 +10,13 @@ import com.innomalist.taxi.shoppingapp.base.BasePresenter;
 import com.innomalist.taxi.shoppingapp.model.BaseResponse;
 import com.innomalist.taxi.shoppingapp.model.accountdetail.AccountDetailResult;
 import com.innomalist.taxi.shoppingapp.model.accountdetail.ShippingDetail;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.UserDetail;
 import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
 import com.innomalist.taxi.shoppingapp.model.country.CountryDetail;
-import com.kiandashopping.kiandashopping.util.NetworkUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+import com.innomalist.taxi.shoppingapp.util.NetworkUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.util.NetworkUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.io.File;
 import java.util.List;
 

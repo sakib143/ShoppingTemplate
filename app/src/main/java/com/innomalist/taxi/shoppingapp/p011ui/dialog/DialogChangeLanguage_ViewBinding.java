@@ -1,9 +1,10 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.view.View;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
+import com.innomalist.taxi.shoppingapp.R;
 import com.kiandashopping.kiandashopping.base.BaseDialogFragment_ViewBinding;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dialog.DialogChangeLanguage_ViewBinding */

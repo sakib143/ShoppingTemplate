@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 import android.content.ComponentName;
 import android.content.Context;

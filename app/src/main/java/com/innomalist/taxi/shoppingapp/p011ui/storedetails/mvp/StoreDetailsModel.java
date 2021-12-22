@@ -1,14 +1,24 @@
-package com.kiandashopping.kiandashopping.p011ui.storedetails.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.storedetails.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.storelist.RequestAddStoreReview;
-import com.kiandashopping.kiandashopping.model.storelist.StoreDetailRequest;
-import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
-import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.storelist.RequestAddStoreReview;
+//import com.kiandashopping.kiandashopping.model.storelist.StoreDetailRequest;
+//import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
+//import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsContractor;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import p013io.reactivex.disposables.Disposable;
+//import p013io.reactivex.observers.DisposableSingleObserver;
+
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.storelist.RequestAddStoreReview;
+import com.innomalist.taxi.shoppingapp.model.storelist.StoreDetailRequest;
+import com.innomalist.taxi.shoppingapp.model.storelist.StoreDetailsResult;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+
+import io.reactivex.disposables.Disposable;
+import io.reactivex.rxjava3.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.storedetails.mvp.StoreDetailsModel */
 public class StoreDetailsModel extends BaseModel implements StoreDetailsContractor.Model {

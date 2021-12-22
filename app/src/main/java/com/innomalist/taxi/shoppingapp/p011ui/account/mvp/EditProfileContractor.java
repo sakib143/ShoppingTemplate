@@ -2,12 +2,13 @@ package com.innomalist.taxi.shoppingapp.p011ui.account.mvp;
 
 import com.innomalist.taxi.shoppingapp.ModelInterface;
 import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ViewInterface;
 import com.innomalist.taxi.shoppingapp.model.BaseResponse;
 import com.innomalist.taxi.shoppingapp.model.accountdetail.AccountDetailResult;
 import com.innomalist.taxi.shoppingapp.model.accountdetail.ShippingDetail;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.UserDetail;
 import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
 import com.innomalist.taxi.shoppingapp.model.country.CountryDetail;
-import com.kiandashopping.kiandashopping.ViewInterface;
 import java.io.File;
 import java.util.List;
 

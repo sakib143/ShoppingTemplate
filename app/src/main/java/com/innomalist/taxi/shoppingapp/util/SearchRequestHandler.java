@@ -1,8 +1,8 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 import android.os.Handler;
-import com.kiandashopping.kiandashopping.util.SearchRequestHandler;
-import p013io.reactivex.disposables.Disposable;
+
+import io.reactivex.disposables.Disposable;
 
 public class SearchRequestHandler {
     private Disposable disposable;

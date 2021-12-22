@@ -2,9 +2,10 @@ package com.innomalist.taxi.shoppingapp.p011ui.allcategory.mvp;
 
 import com.innomalist.taxi.shoppingapp.ModelInterface;
 import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ViewInterface;
 import com.innomalist.taxi.shoppingapp.model.category.CategoriesList;
 import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
-import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.ViewInterface;
 import java.util.List;
 
 import io.reactivex.disposables.Disposable;

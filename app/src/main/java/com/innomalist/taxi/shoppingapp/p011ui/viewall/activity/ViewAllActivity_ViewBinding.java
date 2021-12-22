@@ -1,12 +1,14 @@
-package com.kiandashopping.kiandashopping.p011ui.viewall.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.viewall.activity;
 
 import android.view.View;
 import android.widget.LinearLayout;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.innomalist.taxi.shoppingapp.R;
+
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.viewall.activity.ViewAllActivity_ViewBinding */
 public class ViewAllActivity_ViewBinding implements Unbinder {

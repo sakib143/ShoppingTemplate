@@ -1,6 +1,5 @@
 package com.innomalist.taxi.shoppingapp.data.rest;
 
-import com.kiandashopping.kiandashopping.BuildConfig;
 import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

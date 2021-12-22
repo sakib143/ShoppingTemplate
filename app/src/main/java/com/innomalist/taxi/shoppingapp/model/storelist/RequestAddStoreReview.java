@@ -1,6 +1,8 @@
 package com.innomalist.taxi.shoppingapp.model.storelist;
 
 
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+
 public class RequestAddStoreReview extends LangRequest {
     String comments;
     int ratings;

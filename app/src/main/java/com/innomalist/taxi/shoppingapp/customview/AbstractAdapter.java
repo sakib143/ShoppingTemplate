@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.customview;
+package com.innomalist.taxi.shoppingapp.customview;
 
 import android.view.View;
 import androidx.recyclerview.widget.RecyclerView;

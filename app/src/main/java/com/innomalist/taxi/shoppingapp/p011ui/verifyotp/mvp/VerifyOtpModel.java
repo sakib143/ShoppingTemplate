@@ -1,13 +1,22 @@
-package com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.verifyotp.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.register.RegisterResult;
-import com.kiandashopping.kiandashopping.model.register.RequestRegister;
-import com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp.VerifyOtpContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.register.RegisterResult;
+//import com.kiandashopping.kiandashopping.model.register.RequestRegister;
+//import com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp.VerifyOtpContractor;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import p013io.reactivex.disposables.Disposable;
+//import p013io.reactivex.observers.DisposableSingleObserver;
+
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.register.RegisterResult;
+import com.innomalist.taxi.shoppingapp.model.register.RequestRegister;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+
+import io.reactivex.disposables.Disposable;
+import io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.verifyotp.mvp.VerifyOtpModel */
 public class VerifyOtpModel extends BaseModel implements VerifyOtpContractor.Model {

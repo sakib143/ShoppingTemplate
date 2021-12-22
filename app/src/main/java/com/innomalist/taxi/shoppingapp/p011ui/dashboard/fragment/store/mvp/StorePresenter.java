@@ -1,10 +1,14 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.store.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.store.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.base.BasePresenter;
-import com.kiandashopping.kiandashopping.model.category.LangRequest;
-import com.kiandashopping.kiandashopping.model.storelist.StoreResult;
-import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.store.mvp.StoreContractor;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.base.BasePresenter;
+//import com.kiandashopping.kiandashopping.model.category.LangRequest;
+//import com.kiandashopping.kiandashopping.model.storelist.StoreResult;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.base.BasePresenter;
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+import com.innomalist.taxi.shoppingapp.model.storelist.StoreResult;
+//import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.store.mvp.StoreContractor;
 import java.util.ArrayList;
 import java.util.List;
 

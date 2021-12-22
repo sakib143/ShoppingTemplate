@@ -1,15 +1,20 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.DatePicker;
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.util.DateTime;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+import com.innomalist.taxi.shoppingapp.util.ViewUtils;
 import com.kiandashopping.kiandashopping.base.BaseSheetFragment;
-import com.kiandashopping.kiandashopping.util.DateTime;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
-import com.kiandashopping.kiandashopping.util.ViewUtils;
+//import com.kiandashopping.kiandashopping.util.DateTime;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.util.ViewUtils;
 import java.util.Calendar;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dialog.SheetMonthYear */

@@ -1,13 +1,21 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.aboutus.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.model.BaseResponse;
-import com.kiandashopping.kiandashopping.model.cms.RequestAboutUs;
-import com.kiandashopping.kiandashopping.model.cms.ResultAboutUs;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.model.BaseResponse;
+//import com.kiandashopping.kiandashopping.model.cms.RequestAboutUs;
+//import com.kiandashopping.kiandashopping.model.cms.ResultAboutUs;
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.cms.RequestAboutUs;
+import com.innomalist.taxi.shoppingapp.model.cms.ResultAboutUs;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp.AboutUsContractor;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import p013io.reactivex.disposables.Disposable;
-import p013io.reactivex.observers.DisposableSingleObserver;
+
+import io.reactivex.disposables.Disposable;
+import io.reactivex.rxjava3.observers.DisposableSingleObserver;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import p013io.reactivex.disposables.Disposable;
+//import p013io.reactivex.observers.DisposableSingleObserver;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.aboutus.mvp.AboutUsModel */
 public class AboutUsModel extends BaseModel implements AboutUsContractor.Model {

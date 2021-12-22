@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 public class CurrencyUtils {
     public static String getDisplayCurrency(String str, String str2) {

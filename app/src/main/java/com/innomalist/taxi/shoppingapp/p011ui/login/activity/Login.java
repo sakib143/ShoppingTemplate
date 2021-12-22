@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.login.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.login.activity;
 
 import android.os.Bundle;
 import android.text.method.PasswordTransformationMethod;
@@ -8,11 +8,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.OnClick;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.p011ui.forgotpassword.activity.ForgotPassword;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.p011ui.forgotpassword.activity.ForgotPassword;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.p011ui.forgotpassword.activity.ForgotPassword;
+import com.innomalist.taxi.shoppingapp.p011ui.login.mvp.LoginContractor;
 import com.kiandashopping.kiandashopping.p011ui.login.SocialActivity;
-import com.kiandashopping.kiandashopping.p011ui.login.mvp.LoginContractor;
+//import com.kiandashopping.kiandashopping.p011ui.login.mvp.LoginContractor;
 import com.kiandashopping.kiandashopping.p011ui.login.mvp.LoginPresenter;
 import com.kiandashopping.kiandashopping.p011ui.register.activity.Register;
 

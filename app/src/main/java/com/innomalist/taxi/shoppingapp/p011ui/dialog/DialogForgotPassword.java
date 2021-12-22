@@ -1,12 +1,19 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.widget.EditText;
+
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.base.BaseDialogFragment;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+import com.innomalist.taxi.shoppingapp.util.ValidationUtils;
+
 import butterknife.BindView;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.base.BaseDialogFragment;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
-import com.kiandashopping.kiandashopping.util.ValidationUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.base.BaseDialogFragment;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.kiandashopping.kiandashopping.util.ValidationUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dialog.DialogForgotPassword */
 public class DialogForgotPassword extends BaseDialogFragment {

@@ -1,20 +1,28 @@
-package com.kiandashopping.kiandashopping.p011ui.storedetails.fragment.deals.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.storedetails.fragment.deals.adapter;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.customview.MyAdapter;
+import com.innomalist.taxi.shoppingapp.model.storelist.DealListByShop;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.util.GlideUtils;
+
 import butterknife.BindView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.customview.MyAdapter;
-import com.kiandashopping.kiandashopping.model.storelist.DealListByShop;
-import com.kiandashopping.kiandashopping.util.AppUtils;
-import com.kiandashopping.kiandashopping.util.GlideUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.customview.MyAdapter;
+//import com.kiandashopping.kiandashopping.model.storelist.DealListByShop;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.util.GlideUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.List;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.storedetails.fragment.deals.adapter.DealsAdapter */

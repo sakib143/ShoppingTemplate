@@ -9,10 +9,13 @@ import com.innomalist.taxi.shoppingapp.PresenterInterface;
 import com.innomalist.taxi.shoppingapp.R;
 import com.innomalist.taxi.shoppingapp.base.BaseActivity;
 import com.innomalist.taxi.shoppingapp.model.category.CategoriesList;
+import com.innomalist.taxi.shoppingapp.p011ui.allcategory.adapter.AllCategoryAdapter;
 import com.innomalist.taxi.shoppingapp.p011ui.allcategory.mvp.AllCategoryContractor;
-import com.kiandashopping.kiandashopping.p011ui.allcategory.adapter.AllCategoryAdapter;
-import com.kiandashopping.kiandashopping.p011ui.allcategory.mvp.AllCategoryPresenter;
-import com.kiandashopping.kiandashopping.p011ui.viewall.activity.ViewAllActivity;
+import com.innomalist.taxi.shoppingapp.p011ui.allcategory.mvp.AllCategoryPresenter;
+import com.innomalist.taxi.shoppingapp.p011ui.viewall.activity.ViewAllActivity;
+//import com.kiandashopping.kiandashopping.p011ui.allcategory.adapter.AllCategoryAdapter;
+//import com.kiandashopping.kiandashopping.p011ui.allcategory.mvp.AllCategoryPresenter;
+//import com.kiandashopping.kiandashopping.p011ui.viewall.activity.ViewAllActivity;
 import java.util.ArrayList;
 import java.util.List;
 

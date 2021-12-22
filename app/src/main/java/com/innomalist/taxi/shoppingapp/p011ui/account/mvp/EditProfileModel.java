@@ -1,9 +1,22 @@
 package com.innomalist.taxi.shoppingapp.p011ui.account.mvp;
 
-import com.kiandashopping.kiandashopping.base.BaseModel;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.kiandashopping.kiandashopping.base.BaseModel;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
+import com.innomalist.taxi.shoppingapp.base.BaseModel;
+import com.innomalist.taxi.shoppingapp.data.rest.ApiInterface;
+import com.innomalist.taxi.shoppingapp.model.BaseResponse;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.AccountDetailResult;
+import com.innomalist.taxi.shoppingapp.model.accountdetail.ShippingDetail;
+import com.innomalist.taxi.shoppingapp.model.category.LangRequest;
+import com.innomalist.taxi.shoppingapp.model.country.CountryDetail;
+import com.innomalist.taxi.shoppingapp.model.register.UserDetail;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+
 import java.io.File;
 import java.util.List;
+
+import io.reactivex.disposables.Disposable;
+import io.reactivex.rxjava3.observers.DisposableSingleObserver;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;

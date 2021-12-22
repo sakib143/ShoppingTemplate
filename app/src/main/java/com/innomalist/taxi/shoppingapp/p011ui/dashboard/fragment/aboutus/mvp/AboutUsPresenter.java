@@ -1,9 +1,12 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.aboutus.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.base.BasePresenter;
-import com.kiandashopping.kiandashopping.model.cms.RequestAboutUs;
-import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp.AboutUsContractor;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.base.BasePresenter;
+//import com.kiandashopping.kiandashopping.model.cms.RequestAboutUs;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.base.BasePresenter;
+import com.innomalist.taxi.shoppingapp.model.cms.RequestAboutUs;
+//import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp.AboutUsContractor;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.aboutus.mvp.AboutUsPresenter */
 public class AboutUsPresenter extends BasePresenter implements AboutUsContractor.Presenter {

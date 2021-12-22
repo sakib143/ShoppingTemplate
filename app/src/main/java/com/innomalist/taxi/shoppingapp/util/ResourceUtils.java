@@ -1,9 +1,10 @@
-package com.kiandashopping.kiandashopping.util;
+package com.innomalist.taxi.shoppingapp.util;
 
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
+
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
 
 public class ResourceUtils {
     public static int getColor(int i) {

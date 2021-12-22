@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,17 +6,21 @@ import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.model.viewall.ProductFilter;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.model.viewall.ProductFilter;
-import com.kiandashopping.kiandashopping.p011ui.dialog.adapter.DialogFilterAdapter;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.model.viewall.ProductFilter;
+//import com.kiandashopping.kiandashopping.p011ui.dialog.adapter.DialogFilterAdapter;
 import java.util.ArrayList;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dialog.adapter.DialogFilterAdapter */
-public class DialogFilterAdapter extends RecyclerView.Adapter<ViewHolder> {
+public class DialogFilterAdapter extends RecyclerView.Adapter<DialogFilterAdapter.ViewHolder> {
     /* access modifiers changed from: private */
     public ArrayList<ProductFilter> arrayList;
     /* access modifiers changed from: private */

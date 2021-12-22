@@ -1,11 +1,13 @@
-package com.kiandashopping.kiandashopping.p011ui.verifyotp.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.verifyotp.activity;
 
 import android.view.View;
 import android.widget.EditText;
+
+import com.innomalist.taxi.shoppingapp.R;
+
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.verifyotp.activity.VerifyOtp_ViewBinding */
 public class VerifyOtp_ViewBinding implements Unbinder {

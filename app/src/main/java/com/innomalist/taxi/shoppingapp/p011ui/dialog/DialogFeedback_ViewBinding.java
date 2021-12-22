@@ -1,9 +1,10 @@
-package com.kiandashopping.kiandashopping.p011ui.dialog;
+package com.innomalist.taxi.shoppingapp.p011ui.dialog;
 
 import android.view.View;
 import android.widget.EditText;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
+import com.innomalist.taxi.shoppingapp.R;
 import com.kiandashopping.kiandashopping.base.BaseSheetFragment_ViewBinding;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dialog.DialogFeedback_ViewBinding */

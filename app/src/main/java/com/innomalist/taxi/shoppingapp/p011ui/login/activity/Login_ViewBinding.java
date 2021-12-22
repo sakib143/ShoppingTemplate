@@ -1,13 +1,16 @@
-package com.kiandashopping.kiandashopping.p011ui.login.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.login.activity;
 
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.innomalist.taxi.shoppingapp.R;
+
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.login.activity.Login_ViewBinding */
 public class Login_ViewBinding implements Unbinder {

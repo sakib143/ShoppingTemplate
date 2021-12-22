@@ -1,18 +1,27 @@
-package com.kiandashopping.kiandashopping.p011ui.verifyotp.activity;
+package com.innomalist.taxi.shoppingapp.p011ui.verifyotp.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
+
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+import com.innomalist.taxi.shoppingapp.model.register.RequestRegister;
+import com.innomalist.taxi.shoppingapp.p011ui.verifyotp.mvp.VerifyOtpContractor;
+import com.innomalist.taxi.shoppingapp.p011ui.verifyotp.mvp.VerifyOtpPresenter;
+import com.innomalist.taxi.shoppingapp.util.AppUtils;
+
 import butterknife.BindView;
 import butterknife.OnClick;
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.model.register.RequestRegister;
-import com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp.VerifyOtpContractor;
-import com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp.VerifyOtpPresenter;
-import com.kiandashopping.kiandashopping.util.AppUtils;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.model.register.RequestRegister;
+//import com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp.VerifyOtpContractor;
+//import com.kiandashopping.kiandashopping.p011ui.verifyotp.mvp.VerifyOtpPresenter;
+//import com.kiandashopping.kiandashopping.util.AppUtils;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.verifyotp.activity.VerifyOtp */
 public class VerifyOtp extends BaseActivity implements VerifyOtpContractor.View {

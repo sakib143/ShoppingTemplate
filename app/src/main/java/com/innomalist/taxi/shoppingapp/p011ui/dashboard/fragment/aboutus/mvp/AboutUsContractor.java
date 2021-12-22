@@ -1,10 +1,17 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.aboutus.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.aboutus.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.PresenterInterface;
-import com.kiandashopping.kiandashopping.ViewInterface;
-import com.kiandashopping.kiandashopping.model.cms.RequestAboutUs;
-import p013io.reactivex.disposables.Disposable;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.PresenterInterface;
+//import com.kiandashopping.kiandashopping.ViewInterface;
+//import com.kiandashopping.kiandashopping.model.cms.RequestAboutUs;
+//import p013io.reactivex.disposables.Disposable;
+
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.PresenterInterface;
+import com.innomalist.taxi.shoppingapp.ViewInterface;
+import com.innomalist.taxi.shoppingapp.model.cms.RequestAboutUs;
+
+import io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.aboutus.mvp.AboutUsContractor */
 public interface AboutUsContractor {

@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,12 +10,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.model.category.CategoriesList;
+import com.innomalist.taxi.shoppingapp.model.category.SubCategoryList;
+import com.innomalist.taxi.shoppingapp.model.dashboard.NavigationMenu;
 import com.kiandashopping.kiandashopping.base.BaseViewHolder;
-import com.kiandashopping.kiandashopping.model.category.CategoriesList;
-import com.kiandashopping.kiandashopping.model.category.SubCategoryList;
-import com.kiandashopping.kiandashopping.model.dashboard.NavigationMenu;
-import com.kiandashopping.kiandashopping.p011ui.dashboard.adapter.NavigationAdapter;
+//import com.kiandashopping.kiandashopping.model.category.CategoriesList;
+//import com.kiandashopping.kiandashopping.model.category.SubCategoryList;
+//import com.kiandashopping.kiandashopping.model.dashboard.NavigationMenu;
+//import com.kiandashopping.kiandashopping.p011ui.dashboard.adapter.NavigationAdapter;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.viewholder.MenuViewHolder;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.viewholder.UserInfoViewHolder;
 import java.util.ArrayList;

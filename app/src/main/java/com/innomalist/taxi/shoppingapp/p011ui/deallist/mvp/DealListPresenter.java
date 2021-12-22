@@ -1,10 +1,13 @@
-package com.kiandashopping.kiandashopping.p011ui.deallist.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.deallist.mvp;
 
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.base.BasePresenter;
-import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.base.BasePresenter;
+//import com.kiandashopping.kiandashopping.model.deallist.RequestDealList;
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.base.BasePresenter;
+import com.innomalist.taxi.shoppingapp.model.deallist.RequestDealList;
 import com.kiandashopping.kiandashopping.model.deallist.ResultDealList;
-import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListContractor;
+//import com.kiandashopping.kiandashopping.p011ui.deallist.mvp.DealListContractor;
 import java.util.ArrayList;
 import java.util.List;
 

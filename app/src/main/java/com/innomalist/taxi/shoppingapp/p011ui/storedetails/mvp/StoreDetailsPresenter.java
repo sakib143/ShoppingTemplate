@@ -1,17 +1,30 @@
-package com.kiandashopping.kiandashopping.p011ui.storedetails.mvp;
+package com.innomalist.taxi.shoppingapp.p011ui.storedetails.mvp;
 
-import com.apptube.ecommerce.R;
-import com.kiandashopping.kiandashopping.ModelInterface;
-import com.kiandashopping.kiandashopping.base.BaseApplication;
-import com.kiandashopping.kiandashopping.base.BasePresenter;
-import com.kiandashopping.kiandashopping.model.storelist.RequestAddStoreReview;
-import com.kiandashopping.kiandashopping.model.storelist.StoreDetailRequest;
-import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
-import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsContractor;
-import com.kiandashopping.kiandashopping.util.ConversionUtils;
-import com.kiandashopping.kiandashopping.util.NetworkUtils;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
-import p013io.reactivex.disposables.Disposable;
+//import com.apptube.ecommerce.R;
+//import com.kiandashopping.kiandashopping.ModelInterface;
+//import com.kiandashopping.kiandashopping.base.BaseApplication;
+//import com.kiandashopping.kiandashopping.base.BasePresenter;
+//import com.kiandashopping.kiandashopping.model.storelist.RequestAddStoreReview;
+//import com.kiandashopping.kiandashopping.model.storelist.StoreDetailRequest;
+//import com.kiandashopping.kiandashopping.model.storelist.StoreDetailsResult;
+//import com.kiandashopping.kiandashopping.p011ui.storedetails.mvp.StoreDetailsContractor;
+//import com.kiandashopping.kiandashopping.util.ConversionUtils;
+//import com.kiandashopping.kiandashopping.util.NetworkUtils;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
+//import p013io.reactivex.disposables.Disposable;
+
+import com.innomalist.taxi.shoppingapp.ModelInterface;
+import com.innomalist.taxi.shoppingapp.R;
+import com.innomalist.taxi.shoppingapp.base.BaseApplication;
+import com.innomalist.taxi.shoppingapp.base.BasePresenter;
+import com.innomalist.taxi.shoppingapp.model.storelist.RequestAddStoreReview;
+import com.innomalist.taxi.shoppingapp.model.storelist.StoreDetailRequest;
+import com.innomalist.taxi.shoppingapp.model.storelist.StoreDetailsResult;
+import com.innomalist.taxi.shoppingapp.util.ConversionUtils;
+import com.innomalist.taxi.shoppingapp.util.NetworkUtils;
+import com.innomalist.taxi.shoppingapp.util.ResourceUtils;
+
+import io.reactivex.disposables.Disposable;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.storedetails.mvp.StoreDetailsPresenter */
 public class StoreDetailsPresenter extends BasePresenter implements StoreDetailsContractor.Presenter {
