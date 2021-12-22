@@ -1,9 +1,9 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.dashboard.adapter;
 
 import android.view.View;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
-import com.apptube.ecommerce.R;
+//import com.apptube.ecommerce.R;
 import com.asksira.loopingviewpager.LoopingViewPager;
 
 /* renamed from: com.kiandashopping.kiandashopping.ui.dashboard.fragment.dashboard.adapter.BannerInfinitePager_ViewBinding */

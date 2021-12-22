@@ -1,28 +1,29 @@
-package com.kiandashopping.kiandashopping.p011ui.login;
+package com.innomalist.taxi.shoppingapp.p011ui.login;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import com.apptube.ecommerce.R;
-import com.facebook.AccessToken;
-import com.facebook.CallbackManager;
-import com.facebook.FacebookCallback;
-import com.facebook.FacebookException;
-import com.facebook.GraphRequest;
-import com.facebook.GraphResponse;
-import com.facebook.login.LoginManager;
-import com.facebook.login.LoginResult;
-import com.google.android.gms.auth.api.Auth;
+//import com.apptube.ecommerce.R;
+//import com.facebook.AccessToken;
+//import com.facebook.CallbackManager;
+//import com.facebook.FacebookCallback;
+//import com.facebook.FacebookException;
+//import com.facebook.GraphRequest;
+//import com.facebook.GraphResponse;
+//import com.facebook.login.LoginManager;
+//import com.facebook.login.LoginResult;
+//import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.auth.api.signin.GoogleSignInResult;
+//import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.kiandashopping.kiandashopping.base.BaseActivity;
-import com.kiandashopping.kiandashopping.p011ui.dialog.DialogEmail;
-import com.kiandashopping.kiandashopping.p011ui.login.SocialActivity;
-import com.kiandashopping.kiandashopping.util.ResourceUtils;
+import com.innomalist.taxi.shoppingapp.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.base.BaseActivity;
+//import com.kiandashopping.kiandashopping.p011ui.dialog.DialogEmail;
+//import com.kiandashopping.kiandashopping.p011ui.login.SocialActivity;
+//import com.kiandashopping.kiandashopping.util.ResourceUtils;
 import java.util.Arrays;
 import java.util.Collection;
 import org.json.JSONException;
@@ -41,68 +42,68 @@ public abstract class SocialActivity extends BaseActivity {
     private static final int REQ_GOOGLE = 100;
     private static final String TAG = "SocialActivity";
     private CallbackManager callbackManager;
-    FacebookCallback facebookCallback = new FacebookCallback<LoginResult>() {
-        public void onSuccess(LoginResult loginResult) {
-            GraphRequest newMeRequest = GraphRequest.newMeRequest(AccessToken.getCurrentAccessToken(), new GraphRequest.GraphJSONObjectCallback() {
-                public final void onCompleted(JSONObject jSONObject, GraphResponse graphResponse) {
-                    SocialActivity.C15671.this.lambda$onSuccess$0$SocialActivity$1(jSONObject, graphResponse);
-                }
-            });
-            newMeRequest.setParameters(SocialActivity.this.getLoginBundle());
-            newMeRequest.executeAsync();
-        }
-
-        public /* synthetic */ void lambda$onSuccess$0$SocialActivity$1(JSONObject jSONObject, GraphResponse graphResponse) {
-            Log.i(SocialActivity.TAG, graphResponse.toString());
-            try {
-                getFacebookData(jSONObject);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
-
-        private void getFacebookData(JSONObject jSONObject) throws JSONException {
-            if (jSONObject.has("email")) {
-                SocialActivity.this.onSocialLoginSuccess(jSONObject.getString("id"), jSONObject.getString("name"), "", jSONObject.getString("email"), SocialActivity.FACEBOOK);
-            } else if (!jSONObject.has("email")) {
-                showEmailDialog(jSONObject.getString("id"), jSONObject.getString("name"));
-            }
-        }
-
-        public void showEmailDialog(String str, String str2) {
-            DialogEmail newInstance = DialogEmail.newInstance(SocialActivity.this);
-            newInstance.show(new DialogEmail.EmailListener(newInstance, str, str2) {
-                private final /* synthetic */ DialogEmail f$1;
-                private final /* synthetic */ String f$2;
-                private final /* synthetic */ String f$3;
-
-                {
-                    this.f$1 = r2;
-                    this.f$2 = r3;
-                    this.f$3 = r4;
-                }
-
-                public final void onSubmitEmail(String str) {
-                    SocialActivity.C15671.this.lambda$showEmailDialog$1$SocialActivity$1(this.f$1, this.f$2, this.f$3, str);
-                }
-            });
-        }
-
-        public /* synthetic */ void lambda$showEmailDialog$1$SocialActivity$1(DialogEmail dialogEmail, String str, String str2, String str3) {
-            LoginManager.getInstance().logOut();
-            dialogEmail.dismiss();
-            SocialActivity.this.onSocialLoginSuccess(str, str2, "", str3, SocialActivity.FACEBOOK);
-        }
-
-        public void onCancel() {
-            SocialActivity socialActivity = SocialActivity.this;
-            socialActivity.showToast(socialActivity.getString(R.string.login_request_cancelled));
-        }
-
-        public void onError(FacebookException facebookException) {
-            SocialActivity.this.showConnectionError(facebookException.getMessage());
-        }
-    };
+//    FacebookCallback facebookCallback = new FacebookCallback<LoginResult>() {
+//        public void onSuccess(LoginResult loginResult) {
+//            GraphRequest newMeRequest = GraphRequest.newMeRequest(AccessToken.getCurrentAccessToken(), new GraphRequest.GraphJSONObjectCallback() {
+//                public final void onCompleted(JSONObject jSONObject, GraphResponse graphResponse) {
+//                    SocialActivity.C15671.this.lambda$onSuccess$0$SocialActivity$1(jSONObject, graphResponse);
+//                }
+//            });
+//            newMeRequest.setParameters(SocialActivity.this.getLoginBundle());
+//            newMeRequest.executeAsync();
+//        }
+//
+//        public /* synthetic */ void lambda$onSuccess$0$SocialActivity$1(JSONObject jSONObject, GraphResponse graphResponse) {
+//            Log.i(SocialActivity.TAG, graphResponse.toString());
+//            try {
+//                getFacebookData(jSONObject);
+//            } catch (JSONException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//
+//        private void getFacebookData(JSONObject jSONObject) throws JSONException {
+//            if (jSONObject.has("email")) {
+//                SocialActivity.this.onSocialLoginSuccess(jSONObject.getString("id"), jSONObject.getString("name"), "", jSONObject.getString("email"), SocialActivity.FACEBOOK);
+//            } else if (!jSONObject.has("email")) {
+//                showEmailDialog(jSONObject.getString("id"), jSONObject.getString("name"));
+//            }
+//        }
+//
+//        public void showEmailDialog(String str, String str2) {
+//            DialogEmail newInstance = DialogEmail.newInstance(SocialActivity.this);
+//            newInstance.show(new DialogEmail.EmailListener(newInstance, str, str2) {
+//                private final /* synthetic */ DialogEmail f$1;
+//                private final /* synthetic */ String f$2;
+//                private final /* synthetic */ String f$3;
+//
+//                {
+//                    this.f$1 = r2;
+//                    this.f$2 = r3;
+//                    this.f$3 = r4;
+//                }
+//
+//                public final void onSubmitEmail(String str) {
+//                    SocialActivity.C15671.this.lambda$showEmailDialog$1$SocialActivity$1(this.f$1, this.f$2, this.f$3, str);
+//                }
+//            });
+//        }
+//
+//        public /* synthetic */ void lambda$showEmailDialog$1$SocialActivity$1(DialogEmail dialogEmail, String str, String str2, String str3) {
+//            LoginManager.getInstance().logOut();
+//            dialogEmail.dismiss();
+//            SocialActivity.this.onSocialLoginSuccess(str, str2, "", str3, SocialActivity.FACEBOOK);
+//        }
+//
+//        public void onCancel() {
+//            SocialActivity socialActivity = SocialActivity.this;
+//            socialActivity.showToast(socialActivity.getString(R.string.login_request_cancelled));
+//        }
+//
+//        public void onError(FacebookException facebookException) {
+//            SocialActivity.this.showConnectionError(facebookException.getMessage());
+//        }
+//    };
     private GoogleApiClient mGoogleApiClient;
     GoogleApiClient.OnConnectionFailedListener onConnectionFailed = new GoogleApiClient.OnConnectionFailedListener() {
         public final void onConnectionFailed(ConnectionResult connectionResult) {

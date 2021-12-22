@@ -81,6 +81,7 @@ dependencies {
     implementation 'com.github.devsideal:VectorChildFinder:1.0.0'
     implementation 'com.google.android.gms:play-services-maps:18.0.1'
     implementation 'com.tbuonomo:dotsindicator:4.2'
+    implementation 'io.github.florent37:shapeofview:1.4.7'
 
     //For RxJava
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'

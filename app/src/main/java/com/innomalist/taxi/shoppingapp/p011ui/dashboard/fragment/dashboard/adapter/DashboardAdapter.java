@@ -32,7 +32,7 @@ import com.kiandashopping.kiandashopping.customview.StartSnapHelper;
 //import com.kiandashopping.kiandashopping.model.dashboard.ProductFiftyPercent;
 //import com.kiandashopping.kiandashopping.model.dashboard.ProductNewArrivals;
 //import com.kiandashopping.kiandashopping.model.dashboard.ProductTopOffer;
-import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter.CategoryAdapter;
+//import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter.CategoryAdapter;
 //import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter.DashboardAdapter;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter.DealsInfiniteAdapter;
 import com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter.MostAdapter;

@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard.adapter;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.dashboard.adapter;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;

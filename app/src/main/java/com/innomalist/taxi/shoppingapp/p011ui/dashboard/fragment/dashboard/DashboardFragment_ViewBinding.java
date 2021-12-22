@@ -1,4 +1,4 @@
-package com.kiandashopping.kiandashopping.p011ui.dashboard.fragment.dashboard;
+package com.innomalist.taxi.shoppingapp.p011ui.dashboard.fragment.dashboard;
 
 import android.view.View;
 import androidx.recyclerview.widget.RecyclerView;
